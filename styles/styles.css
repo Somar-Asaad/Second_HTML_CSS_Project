@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(233, 224, 240);
+  text-align: center;
+  color: rgb(242, 224, 255);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: rgb(97, 6, 254);
+}
+
+img {
+  width: 250px;
+  display: inline-block;
+  margin: 20px;
+}
+
+main {
+  width: 800px;
+  text-align: left;
+  background-color: rgb(139, 14, 255);
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px grey;
+  padding: 20px 30px;
+  margin: 20px auto 20px auto;
+}
+
+main h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+main a {
+  background-color: rgb(245, 219, 187);
+  padding: 3px 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+main a:hover,
+main a:active {
+  text-decoration: underline;
+  background-color: rgb(247, 206, 155);
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 3px solid transparent;
+}
+
+.important-list-item {
+  border-color: rgb(255, 191, 0);
+}
+
+footer a {
+  background-color: rgb(255, 191, 0);
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 7px;
+  box-shadow: 1px 3px 3px grey;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer a:hover {
+  background-color: rgb(255, 204, 0);
+  text-decoration: underline;
+}
+
+footer p {
+  color: grey;
+}
